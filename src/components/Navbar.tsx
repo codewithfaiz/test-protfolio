@@ -141,6 +141,7 @@ const Navbar = () => {
             <div className=" flex flex-col justify-between p-10 pt-24 text-6xl gap-5">
               {navItems.map((items, i) => (
                 <motion.div
+                  key={i}
                   custom={i}
                   variants={perspective}
                   initial="initial"

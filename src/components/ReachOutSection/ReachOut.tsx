@@ -25,7 +25,7 @@ const ReachOut = () => {
       <section className="flex flex-col gap-14 pt-20 lg:gap-20 relative bg-black text-white ">
         {/* Background Image container */}
         {background && (
-          <div className="w-full h-full absolute top-0 left-0 -z-[-1]">
+          <div className="w-full h-full absolute top-0 left-0 -z-[-10]">
             <Image
               src={background}
               alt=""
@@ -90,7 +90,7 @@ const ReachOut = () => {
               >
                 <Link
                   href={item.url}
-                  className=" uppercase font-medium text-2xl md:text-5xl lg:text-9xl sm:opacity-10 sm:hover:opacity-100"
+                  className=" uppercase p-2 font-medium text-2xl md:text-5xl lg:text-9xl sm:opacity-10 sm:hover:opacity-100"
                   onMouseEnter={() => handleMouseEnter(item.img)}
                   onMouseLeave={() => removeBg(item.img)}
                 >
