@@ -38,7 +38,7 @@ const TypingAnimation: React.FC<TypingAnimationProps> = ({ texts }) => {
         }
       },
     });
-  }, []);
+  }, [count,textIndex,updatedThisRound]);
 
   const cursorVariants = {
     blinking: {

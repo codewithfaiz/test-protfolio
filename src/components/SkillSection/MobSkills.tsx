@@ -10,7 +10,7 @@ const MobSkills = () => {
   return (
     <section className="flex lg:hidden flex-col gap-14">
       <h1 className="font-medium text-6xl px-8">Skills</h1>
-      <p className="text-base px-8">I bring together my creative vision with technical expertise to raft innovative and user-centric digital experiences. Here's a closer look at my skillset:</p>
+      <p className="text-base px-8">I bring together my creative vision with technical expertise to craft innovative and user-centric digital experiences. Here&apos;s a closer look at my skillset:</p>
        {/* Navigation Button  */}
        <Link href={''} className={`w-max px-8 text-xl relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-[1px] after:bottom-0 after:left-0  after:bg-black after:origin-bottom-right after:ease-out after:transition-transform after:duration-[0.5s] hover:after:scale-x-[1] hover:after:origin-bottom-left focus:after:origin-bottom-left focus:after:scale-x-[1]  active:after:scale-x-[0.9]  active:after:origin-bottom-left`}>See More</Link>
       <div className=" flex flex-col gap-10 pb-14 px-4 ">

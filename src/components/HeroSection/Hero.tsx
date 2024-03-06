@@ -70,7 +70,7 @@ const Hero = () => {
             <div className="w-full h-full flex flex-col justify-center items-center text-white text-4xl md:text-6xl lg:text-8xl font-medium cursor-pointer">
               <div>
                 <h1>Hello,</h1>
-                <h1>I'm Faiz Khan.</h1>
+                <h1>I&apos;m Faiz Khan.</h1>
               </div>
 
               {/* Animated chevron container */}
