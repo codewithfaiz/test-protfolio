@@ -51,7 +51,9 @@ interface LenisOptionsWithTypes {
             <h1>Work</h1>
         </div>
       {ProjectData.map((item, index) => (
-        <div className="w-full flex flex-col sm:flex-row justify-center items-center pb-20 px-8 sm:pl-40">
+        <div 
+        key={index}
+        className="w-full flex flex-col sm:flex-row justify-center items-center pb-20 px-8 sm:pl-40">
           <div className="flex flex-col justify-between">
             <div className="flex justify-between text-lg pb-16">
               <span>0/{index + 1}</span>
